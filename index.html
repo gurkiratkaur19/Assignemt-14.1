@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="canonical" href="https://weather-pwa-sample.firebaseapp.com/final/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airport</title>
+  <link rel="stylesheet" type="text/css" href="styles/inline.css">
+
+  <!-- TODO add manifest here -->
+  
+</head>
+<body>
+<div class="container" id="container">
+  <header class="header">
+    <div class="header__title">Arrivals</div>
+  </header>
+  <main class="main">
+  <div class="cardTemplate" hidden>
+	<div class="card">
+		<div class="key" id="key" hidden></div>
+		<div class="destination" id="destination">
+			<div class="from" id="from"></div>
+			to
+			<div class="to" id="to"></div></br>
+			<div class="time" id="time" style="margin-top:2px;display: inline-block;"> </div>
+			<div class="status" id="status"style="float:right;display: inline-block;"></div>
+		</div>
+	</div>
+ </div>
+  </main>
+ </div>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
